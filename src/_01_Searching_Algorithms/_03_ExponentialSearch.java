@@ -10,19 +10,24 @@ public class _03_ExponentialSearch {
 	//   We can assume that array is sorted.
 	public static int exponentialSearch(int array[], int value)
 	{
+		if(array[0]==value) {
+		return 0;
+		}
 		// 2. Check if the array element at 0 is the value.
 		//    If it is, then return 0.
 
 		// 3. create an integer called counter and initialize it to 1;
-		
+		int counter=1;
 		//4. make while loop that checks for two conditions:
 		//    	counter is less than the length of the array,
 		//		and the array element at counter is less than or equal to value
-		
+		while(counter<array.length) {
+			
+		counter=counter*2;
 			//5. inside the while loop, double the value of counter.
-
+		}
 		//6. create an integer called minimum
-		
+		int minimum
 		//7. if counter is less than the length of the array,
 		//   set minimum equal to counter
 		

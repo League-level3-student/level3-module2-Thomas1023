@@ -83,7 +83,7 @@ public class _00_MoreAndMoreTests {
 
 	private boolean isCube(int i) {
 		double step=1;
-		if(Math.cbrt(i)%1==0) {
+		if(cb(step,i)%1==0) {
 			return true;
 		}
 		return false;
@@ -93,7 +93,7 @@ public class _00_MoreAndMoreTests {
 		System.out.println(step);
 		for(double b=0;b*b*b!=i;b=b+step) {
 			System.err.println(i);
-			if(step<0.001) {
+			if(step<0.00001) {
 				return b;
 			}
 			if(b>i) {

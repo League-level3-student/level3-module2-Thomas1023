@@ -27,7 +27,7 @@ public class _03_ExponentialSearch {
 			//5. inside the while loop, double the value of counter.
 		}
 		//6. create an integer called minimum
-		int minimum
+		int minimum=0;
 		//7. if counter is less than the length of the array,
 		//   set minimum equal to counter
 		
